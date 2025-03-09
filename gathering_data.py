@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Mengimport dataset
-day_df = pd.read_csv(r"data\day.csv")
-hour_df = pd.read_csv(r"data\hour.csv")
+day_df = pd.read_csv("day.csv")
+hour_df = pd.read_csv("hour.csv")
 
 
   

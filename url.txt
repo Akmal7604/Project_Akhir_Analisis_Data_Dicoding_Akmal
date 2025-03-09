@@ -1,1 +1,1 @@
-https://akmal7604-project-akhir-analisis-data-dic-dashboard-data-bncjbk.streamlit.app/
+https://projectakhirdatadicodingakmal.streamlit.app/
