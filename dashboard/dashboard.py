@@ -6,8 +6,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression  
 
 # Mengimport dataset
-day_df = pd.read_csv("data\day.csv")
-hour_df = pd.read_csv("data\hour.csv")
+day_df = pd.read_csv("data/day.csv")
+hour_df = pd.read_csv("data/hour.csv")
 
 # Set display options to show all columns when describing  
 pd.set_option('display.max_columns', None)  # This shows all columns  
