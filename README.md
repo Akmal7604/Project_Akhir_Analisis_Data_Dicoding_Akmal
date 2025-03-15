@@ -7,7 +7,6 @@ Proyek ini merupakan tugas akhir dari course *Data Analysis using Python* yang m
 2. [Instalasi Dependensi](#2-instalasi-dependensi)  
 3. [Siklus Pengerjaan Proyek](#3-siklus-pengerjaan-proyek)  
 4. [Menjalankan Dashboard](#4-menjalankan-dashboard)  
-5. [Referensi Tambahan](#5-referensi-tambahan)
 
 ---
 
