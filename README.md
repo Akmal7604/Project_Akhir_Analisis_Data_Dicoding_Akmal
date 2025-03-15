@@ -1,22 +1,80 @@
-
 # Bike Rentals - Final Project Data Analytics
 
-This project serves as the final assignment for the Data Analysis using Python course. In this project, I utilized the Bike Sharing Dataset to conduct a comprehensive data analysis. The process began with gathering data from the dataset, followed by assessing and cleaning of the data to ensure its quality and integrity. I performed exploratory data analysis (EDA) to uncover patterns and trends, resulting in informative insights. Additionally, I applied data visualization techniques to present the findings visually, making them easier to understand. Finally, I successfully deployed the analysis application using Streamlit, allowing users to interact with the analysis results and make predictions about bike rentals based on weather factors
-Link: https://akmal7604-project-akhir-analisis-data-dashboarddashboard-quzacj.streamlit.app/
+Proyek ini merupakan tugas akhir dari course *Data Analysis using Python* yang memanfaatkan *Bike Sharing Dataset* untuk melakukan analisis data secara menyeluruh. Prosesnya mencakup pengumpulan data, penilaian kualitas data, pembersihan data, eksplorasi, serta visualisasi untuk mendapatkan wawasan lebih lanjut. Visualisasi dan konklusi kemudian ditampilkan melalui *Streamlit*, sehingga pengguna dapat memprediksi jumlah penyewaan sepeda berdasarkan faktor cuaca secara interaktif.
 
-Every information of the dataset is included within the "readme" file.
+## Daftar Isi
+1. [Persiapan Lingkungan (Setup Virtual Environment)](#1-persiapan-lingkungan-setup-virtual-environment)  
+2. [Instalasi Dependensi](#2-instalasi-dependensi)  
+3. [Siklus Pengerjaan Proyek](#3-siklus-pengerjaan-proyek)  
+4. [Menjalankan Dashboard](#4-menjalankan-dashboard)  
 
-## 2. Project work cycle
-1. Data Wrangling: 
- - Gathering data
- - Assessing data
- - Cleaning data
-2. Exploratory Data Analysis:
- - Create business and analytical questions
- - Create Data exploration based on the questions
-3. Data Visualization:
- - Create Data Visualization that answer business questions
-4. Dashboard:
- - Set up the DataFrame which will be used
- - Make filter components on the dashboard
- - Complete the dashboard with various data visualizations
+---
+
+## 1. Persiapan Lingkungan (Setup Virtual Environment)
+
+1. **Clone atau Download Repository**  
+   Silakan *clone* atau *download* zip repository ini:
+   
+   bike-rentals-final-project.git
+   
+2. **Masuk ke Folder Proyek**  
+   ```bash
+   cd bike-rentals-final-project
+   ```
+
+3. **Membuat Virtual Environment**  
+   Buat *virtual environment* untuk memisahkan dependensi proyek ini dari sistem global. \\
+   ```bash
+   python -m venv venv
+   ```
+
+4. **Aktivasi Virtual Environment**  
+   ```bash
+   venv\Scripts\activate
+   ```
+
+## 2. Instalasi Dependensi
+
+**Pastikan berada pada virtual environment** yang telah Anda buat dan aktifkan sebelumnya.  
+
+- Instal semua dependensi dengan menggunakan `requirements.txt`:  
+  ```bash
+  pip install -r requirements.txt
+  ```
+
+## 3. Project Work Cycle
+
+1. **Data Wrangling**  
+   - *Gathering data*  
+   - *Assessing data*  
+   - *Cleaning data*
+
+2. **Exploratory Data Analysis (EDA)**  
+   - Membuat pertanyaan bisnis dan analisis  
+   - Mengeksplorasi data untuk menjawab pertanyaan tersebut
+
+3. **Data Visualization**  
+   - Membuat visualisasi data untuk menjawab pertanyaan bisnis
+
+4. **Dashboard**  
+   - Mempersiapkan *DataFrame* yang siap untuk digunakan  
+   - Membuat *filter* pada dashboard  
+   - Melengkapi dashboard dengan berbagai visualisasi
+
+---
+
+## 4. Menjalankan Dashboard
+
+Untuk menjalankan *dashboard* Streamlit:
+
+1. **Pastikan Virtual Environment aktif**  
+   Sebelum menjalankan perintah berikut, pastikan **venv** telah diaktifkan.
+
+2. **Jalankan perintah berikut**  
+   ```bash
+   streamlit run dashboard.py
+   ```
+   atau sesuaikan dengan path / folder tempat Anda menyimpan berkas `dashboard.py`, misalnya:
+   ```bash
+   streamlit run source/dashboard.py
+   ```
